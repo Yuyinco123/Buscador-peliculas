@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Resetear estilos por defecto de la lista */
+.categorias ul {
+    list-style-type: none;
+    padding: 0;
+
+    margin: 0 auto;
+    margin-left: 19%;
+    margin-top: 2%;
+    max-width: 900px; /* Ancho máximo del contenedor */
+}
+
+/* Estilos para los elementos de la lista */
+.categorias li {
+    display: inline-block; /* Mostrar los elementos en línea */
+    margin-right: 20px; /* Espacio entre cada categoría */
+}
+
+/* Estilos para los enlaces dentro de los elementos de lista */
+.categorias li button {
+    display: grid;
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    padding: 5px 10px; /* Espaciado interno */
+    border: 0px solid #ccc; /* Borde del botón */
+    border-radius: 30px; /* Esquinas redondeadas */
+    background-color: rgba(95, 85, 85, 0.801); /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    width: 108px;
+    height: 50px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos para cuando se pasa el mouse sobre los enlaces */
+.categorias li button:hover {
+    background-color: rgba(255, 255, 255, 0.801); /* Cambio de color de fondo */
+    color: black;
+}

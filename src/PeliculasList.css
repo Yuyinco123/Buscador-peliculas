@@ -1,0 +1,41 @@
+.peliculasList {
+    border: 0px solid rgba(95, 85, 85, 0.801); 
+    border-radius: 1.25rem;
+    margin: 0% 0 2% 5.5%;
+    padding: 0 0 56px 0;
+    list-style: none;
+
+    max-width: 900px;
+    
+  }
+
+  .scroll {
+    border: 0px solid rgba(95, 85, 85, 0.801); 
+    max-width: 1000px;
+    margin: 2% 0 2% 15%;
+    max-height: 100%;
+    height: 500px;
+    overflow: auto; /* Habilita el scroll vertical */
+    
+  }
+
+
+  .scroll::-webkit-scrollbar {
+    width: 10px; /* Ancho del scrollbar */
+    margin-left: 100px;
+
+  }
+  
+  /* Thumb (parte deslizable) */
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(95, 85, 85, 0.801); /* Color del thumb */
+    border-radius: 1.25rem; /* Borde del thumb */
+
+  }
+  
+  /* Track (barra del scrollbar) */
+  .scroll::-webkit-scrollbar-track {
+    background-color: rgba(95, 85, 85, 0); /* Color del track */
+    border-radius: 1.25rem; /* Borde del track */
+    margin-left: 100px;
+  }

@@ -1,0 +1,41 @@
+.Buscar {
+    display: grid;
+    align-items: center; /* Centra verticalmente */
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 2%;
+    max-width: 880px; /* Ancho máximo del contenedor */
+    height: 50px;
+    border-radius: 50px; /* Esquinas redondeadas */
+    background-color: rgba(95, 85, 85, 0.801);
+    position: relative;
+}
+
+.buscando {
+    margin: 0 73%;
+    height: 2px;
+    padding: 10px 10px 10px 50px; /* Espacio alrededor del texto dentro del input */
+    border: 1px solid rgb(82, 72, 72);; /* Borde del input */
+    border-radius: 50px; /* Esquinas redondeadas */
+    width: 150px; /* Ancho del input */
+    background-color: rgb(82, 72, 72); /* Color de fondo */
+    outline: none; /* Quita el borde alrededor del input cuando está enfocado */
+    color: #fcfcfcb4;
+    
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 0 75%;
+}
+
+
+.texto {
+    margin: 0 3%;
+    display: grid;
+    align-items: center; /* Centra verticalmente */
+    position: absolute;
+    color: aliceblue;
+}
