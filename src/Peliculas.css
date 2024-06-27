@@ -15,7 +15,8 @@
   text-align: center;
   border: 0px solid #ccc;
   color: #ffffff;
-  max-height: 350px; 
+  height: 350px; 
+  overflow: auto;
 }
 
 .lista-3x3-item img {
@@ -46,10 +47,15 @@
   width: 0px; /* Ocultar scrollbar en WebKit */
 }
 
+.lista-3x3-item::-webkit-scrollbar {
+  width: 0px; /* Ocultar scrollbar en WebKit */
+}
+
 @media (max-width: 576px) {
   .lista-3x3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Tres columnas de tamaño igual */
+    height:100% ;
   }
 
   .cat {
