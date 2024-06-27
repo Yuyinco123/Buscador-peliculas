@@ -8,26 +8,26 @@
     margin: 0 auto;
     margin-left: 19%;
     margin-top: 2%;
-    max-width: 900px; /* Ancho máximo del contenedor */
+    max-width: 56.25rem; /* Ancho máximo del contenedor */
 }
 
 /* Estilos para los elementos de la lista */
 .categorias li {
     display: inline-block; /* Mostrar los elementos en línea */
-    margin-right: 20px; /* Espacio entre cada categoría */
+    margin-right: 1.25rem; /* Espacio entre cada categoría */
 }
 
 /* Estilos para los enlaces dentro de los elementos de lista */
 .categorias li button {
     display: grid;
     text-decoration: none; /* Quitar subrayado de los enlaces */
-    padding: 5px 10px; /* Espaciado interno */
+    padding: 0.313rem 0.625rem; /* Espaciado interno */
     border: 0px solid #ccc; /* Borde del botón */
-    border-radius: 30px; /* Esquinas redondeadas */
+    border-radius: 1.875rem; /* Esquinas redondeadas */
     background-color: rgba(95, 85, 85, 0.801); /* Color de fondo */
     color: #ffffff; /* Color del texto */
-    width: 108px;
-    height: 50px;
+    width: 6.75rem;
+    height: 3.125rem;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
@@ -36,4 +36,41 @@
 .categorias li button:hover {
     background-color: rgba(255, 255, 255, 0.801); /* Cambio de color de fondo */
     color: black;
+}
+
+@media (max-width: 768px) {
+    .categorias ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .categorias li {
+        display: inline-block; /* Mostrar los elementos en línea */
+        margin-right: 0.3rem; /* Espacio entre cada categoría */
+        margin-top: 0.5rem;
+    }
+
+    .categorias li button {
+        width: 5rem;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .categorias ul {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .categorias li {
+        display: inline-block; /* Mostrar los elementos en línea */
+        margin-right: 0.2rem; /* Espacio entre cada categoría */
+        margin-top: 0.5rem;
+    }
+
+    .categorias li button {
+        width: 4rem;
+    }
+
 }

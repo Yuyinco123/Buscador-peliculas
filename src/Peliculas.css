@@ -34,7 +34,7 @@
   color: rgba(255, 255, 255, 0.603);
 }
 
-.categorias {
+.cat {
   text-align: left;
   padding:  5px 10px 10px 10px; /* Espaciado interno */
   font-size: 13px;
@@ -44,4 +44,22 @@
 
 .parrafo::-webkit-scrollbar {
   width: 0px; /* Ocultar scrollbar en WebKit */
+}
+
+@media (max-width: 576px) {
+  .lista-3x3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de tamaño igual */
+  }
+
+  .cat {
+margin-top: -5px;
+font-size: 10px;
+  }
+
+  .parrafo {
+    font-size: 10px;
+  }
+  
+
 }

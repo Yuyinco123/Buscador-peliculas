@@ -2,19 +2,19 @@
     border: 0px solid rgba(95, 85, 85, 0.801); 
     border-radius: 1.25rem;
     margin: 0% 0 2% 5.5%;
-    padding: 0 0 56px 0;
+    padding: 0 0 3.5rem 0;
     list-style: none;
 
-    max-width: 900px;
+    max-width: 56.25rem;
     
   }
 
   .scroll {
     border: 0px solid rgba(95, 85, 85, 0.801); 
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: 2% 0 2% 15%;
     max-height: 100%;
-    height: 500px;
+    height: 31.25rem;
     overflow: auto; /* Habilita el scroll vertical */
     
   }
@@ -39,3 +39,21 @@
     border-radius: 1.25rem; /* Borde del track */
     margin-left: 100px;
   }
+
+  @media (max-width: 768px) {
+   
+  .scroll {
+    margin: 2%  5%;
+    max-height: 100%;
+    height: 27rem;
+
+  }
+
+  .peliculasList {
+    max-width: 38rem;
+
+  }
+
+}
+
+

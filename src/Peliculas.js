@@ -15,7 +15,7 @@ function Peliculas(
                     <img src={show.show.image?.medium || 'Informacion no disponible'} alt={show.show.image?.medium || 'Informacion no disponible'} />
                     <p className="titulo">{show.show.name ? show.show.name : 'Informacion no disponible'}</p>
                     <p className="parrafo">{show.show.summary ? show.show.summary : 'Informacion no disponible'}</p>
-                    <p className="categorias">{show.show.genres && show.show.genres.length !== 0 ? `Categorias: ${show.show.genres.join(', ')}` : 'informacion no disponible'}</p>
+                    <p className="cat">{show.show.genres && show.show.genres.length !== 0 ? `Categorias: ${show.show.genres.join(', ')}` : 'informacion no disponible'}</p>
 
                 </div>
             ))}
