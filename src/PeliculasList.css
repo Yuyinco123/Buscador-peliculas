@@ -12,7 +12,9 @@
   .scroll {
     border: 0px solid rgba(95, 85, 85, 0.801); 
     max-width: 62.5rem;
-    margin: 2% 0 2% 15%;
+    margin: 0 auto;
+    margin-top:2%;
+    margin-bottom: 2%;
     max-height: 60%;
     height: 500px;
     overflow: auto; /* Habilita el scroll vertical */
